@@ -4,7 +4,7 @@ import time
 import base64
 import hmac
 import hashlib
-from config import api_secret, api_key, api_pass
+from coinbaseWebSocket.config import api_secret, api_key, api_pass
 
 class WebSocketClient:
     def __init__(self):
